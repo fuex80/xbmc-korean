@@ -1,0 +1,6 @@
+<!-- Basics-101 skin revision:  - built with build.bat version 1.0 -->
+<includes>
+    <include name="Revision">
+        <label>Basics-101 $LOCALIZE[31013] 2.1 - r (Sat 03/21/2009)</label>
+    </include>
+</includes>
