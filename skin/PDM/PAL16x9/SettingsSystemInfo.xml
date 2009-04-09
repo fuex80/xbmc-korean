@@ -123,8 +123,8 @@
 			<description>Label 2</description>
 			<posx>190</posx>
 			<posy>145</posy>
-			<label>$INFO[system.cpuusage]</label>
-			<font>font13</font>
+      <label>$LOCALIZE[13271] $INFO[system.cpuusage]</label>
+      <font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
 		<control type="progress">
@@ -145,7 +145,7 @@
 			<description>Label 3</description>
 			<posx>190</posx>
 			<posy>188</posy>
-			<label>$LOCALIZE[139] $INFO[system.cputemperature]  -  $INFO[system.gputemperature]</label>
+			<label>$LOCALIZE[139] $LOCALIZE[22011] $INFO[system.cputemperature]  -  $LOCALIZE[22010] $INFO[system.gputemperature]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -153,7 +153,7 @@
 			<description>Label 4</description>
 			<posx>190</posx>
 			<posy>216</posy>
-			<label>$INFO[system.fanspeed]</label>
+			<label>$LOCALIZE[13300]: $INFO[system.fanspeed]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -192,8 +192,8 @@
 			<description>Label 6</description>
 			<posx>190</posx>
 			<posy>282</posy>
-			<label>$INFO[Network.IPAddress]</label>
-			<font>font13</font>
+      <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
+      <font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
 		<control type="label">
@@ -208,7 +208,7 @@
 			<description>Label 8</description>
 			<posx>190</posx>
 			<posy>343</posy>
-			<label>$INFO[system.kernelversion]</label>
+			<label>$LOCALIZE[13283] $INFO[system.kernelversion]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -216,7 +216,7 @@
 			<description>Label 9</description>
 			<posx>190</posx>
 			<posy>371</posy>
-			<label>$INFO[system.uptime]</label>
+			<label>$LOCALIZE[12390]: $INFO[system.uptime]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -224,7 +224,7 @@
 			<description>Label 10</description>
 			<posx>190</posx>
 			<posy>399</posy>
-			<label>$INFO[system.totaluptime]</label>
+			<label>$LOCALIZE[12394]: $INFO[system.totaluptime]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -410,7 +410,7 @@
 				<description>Label 10</description>
 				<posx>190</posx>
 				<posy>409</posy>
-				<label>$INFO[system.freespace]</label>
+				<label>$LOCALIZE[20161]: $INFO[system.freespace]</label>
 				<font>font13</font>
 				<include>textcolorwhite-60</include>
 			</control>
@@ -419,7 +419,7 @@
 				<posx>680</posx>
 				<posy>409</posy>
 				<align>right</align>
-				<label>$INFO[system.totalspace]</label>
+				<label>$LOCALIZE[20161]: $INFO[system.totalspace]</label>
 				<font>font13</font>
 				<include>textcolorwhite-60</include>
 			</control>
@@ -609,8 +609,8 @@
 			<description>Label 5</description>
 			<posx>190</posx>
 			<posy>229</posy>
-			<label>$INFO[network.ipaddress]</label>
-			<font>font13</font>
+      <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
+      <font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
 		<control type="label">
@@ -625,7 +625,7 @@
 			<description>Label 7</description>
 			<posx>190</posx>
 			<posy>285</posy>
-			<label>$INFO[network.gatewayadress]</label>
+			<label>$LOCALIZE[13160]: $INFO[network.gatewayadress]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -633,7 +633,7 @@
 			<description>Label 8</description>
 			<posx>190</posx>
 			<posy>313</posy>
-			<label>$INFO[network.dns1adress]</label>
+			<label>$LOCALIZE[13161]: $INFO[network.dns1adress]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -641,7 +641,7 @@
 			<description>Label 9</description>
 			<posx>190</posx>
 			<posy>341</posy>
-			<label>$INFO[network.dns2adress]</label>
+			<label>$LOCALIZE[20307]: $INFO[network.dns2adress]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -649,7 +649,7 @@
 			<description>Label 10</description>
 			<posx>190</posx>
 			<posy>368</posy>
-			<label>$INFO[system.internetstate]</label>
+			<label>$LOCALIZE[13295] $INFO[system.internetstate]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>
@@ -731,7 +731,7 @@
 			<description>Label 4</description>
 			<posx>190</posx>
 			<posy>201</posy>
-			<label>$INFO[system.cpufrequency]</label>
+			<label>$LOCALIZE[13284] $INFO[system.cpufrequency]</label>
 			<font>font13</font>
 			<include>textcolorwhite-60</include>
 		</control>

@@ -500,8 +500,8 @@
 		<description>CPU</description>
 		<posx>620</posx>
 		<posy>55</posy>
-		<info>system.cpuusage</info>
-		<align>right</align>
+    <label>$LOCALIZE[13271] $INFO[system.cpuusage]</label>
+    <align>right</align>
 		<aligny>center</aligny>
 		<font>special13</font>
 		<include>textcolorwhite-50</include>
@@ -543,7 +543,7 @@
 		<scroll>true</scroll>
 		<align>right</align>
 		<aligny>center</aligny>
-		<label> ..$INFO[System.FreeSpace(C)] of $INFO[system.totalspace(c)] - $INFO[System.FreeSpace(E)] of $INFO[system.totalspace(e)] - $INFO[System.FreeSpace(F)] of $INFO[system.totalspace(f)] - $INFO[System.FreeSpace(G)] of $INFO[system.totalspace(g)] - $INFO[Network.IPAddress] - $LOCALIZE[144] $INFO[System.BuildVersion] - $LOCALIZE[172]: $INFO[System.BuildDate] - $INFO[system.dvdtraystate]</label>
+		<label> ..$INFO[System.FreeSpace(C)] of $INFO[system.totalspace(c)] - $INFO[System.FreeSpace(E)] of $INFO[system.totalspace(e)] - $INFO[System.FreeSpace(F)] of $INFO[system.totalspace(f)] - $INFO[System.FreeSpace(G)] of $INFO[system.totalspace(g)] - $LOCALIZE[150]: $INFO[Network.IPAddress] - $LOCALIZE[144] $INFO[System.BuildVersion] - $LOCALIZE[172]: $INFO[System.BuildDate] - $INFO[system.dvdtraystate]</label>
 		<include>textcolorwhite-50</include>
 		<visible>Skin.HasSetting(sysstatsbarhome)</visible>
 		<include>startup-main-top</include>

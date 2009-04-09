@@ -96,7 +96,7 @@
           <control type="label">
             <description>2</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.cpuusage]</label>
+            <label>$LOCALIZE[13271] $INFO[system.cpuusage]</label>
           </control>
   
           <control type="progress">
@@ -108,13 +108,13 @@
           <control type="label">
             <description>3</description>
             <include>SystemInfoLabels</include>
-            <label>$LOCALIZE[139] $INFO[system.cputemperature]  -  $INFO[system.gputemperature]</label>
+            <label>$LOCALIZE[139] $LOCALIZE[22011] $INFO[system.cputemperature]  -  $LOCALIZE[22010] $INFO[system.gputemperature]</label>
           </control>
   
           <control type="label">
             <description>4</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.fanspeed]</label>
+            <label>$LOCALIZE[13300]: $INFO[system.fanspeed]</label>
           </control>
   
           <control type="label">
@@ -132,31 +132,31 @@
           <control type="label">
             <description>6</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[Network.IPAddress]</label>
+            <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
           </control>
   
           <control type="label">
             <description>7</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.screenresolution]</label>
+            <label>$LOCALIZE[13287] $INFO[system.screenresolution]</label>
           </control>
     
           <control type="label">
             <description>8</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.kernelversion]</label>
+            <label>$LOCALIZE[13283] $INFO[system.kernelversion]</label>
           </control>
     
           <control type="label">
             <description>9</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.uptime]</label>
+            <label>$LOCALIZE[12390]: $INFO[system.uptime]</label>
           </control>
     
           <control type="label">
             <description>10</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.totaluptime]</label>
+            <label>$LOCALIZE[12394]: $INFO[system.totaluptime]</label>
           </control>
     
         </control>
@@ -248,7 +248,7 @@
           <control type="label">
             <description>10</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.freespace] - $INFO[system.totalspace]</label>
+            <label>$LOCALIZE[20161]: $INFO[system.freespace] - $LOCALIZE[20161]: $INFO[system.totalspace]</label>
           </control>
   
           <control type="progress">
@@ -384,7 +384,7 @@
           <control type="label">
             <description>5</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[network.ipaddress]</label>
+            <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
           </control>
   
           <control type="label">
@@ -396,25 +396,25 @@
           <control type="label">
             <description>7</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[network.gatewayadress]</label>
+            <label>$LOCALIZE[13160]: $INFO[network.gatewayadress]</label>
           </control>
     
           <control type="label">
             <description>8</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[network.dns1adress]</label>
+            <label>$LOCALIZE[13161]: $INFO[network.dns1adress]</label>
           </control>
     
           <control type="label">
             <description>9</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[network.dns2adress]</label>
+            <label>$LOCALIZE[20307]: $INFO[network.dns2adress]</label>
           </control>
     
           <control type="label">
             <description>10</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.internetstate]</label>
+            <label>$LOCALIZE[13295] $INFO[system.internetstate]</label>
           </control>
         </control>
 
@@ -435,7 +435,7 @@
           <control type="label">
             <description>3</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.screenresolution]</label>
+            <label>$LOCALIZE[13287] $INFO[system.screenresolution]</label>
           </control>
     
           <control type="label">
@@ -473,7 +473,7 @@
           <control type="label">
             <description>4</description>
             <include>SystemInfoLabels</include>
-            <label>$INFO[system.cpufrequency]</label>
+            <label>$LOCALIZE[13284] $INFO[system.cpufrequency]</label>
           </control>
     
           <control type="label">

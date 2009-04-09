@@ -173,7 +173,7 @@
                 <include>FileMgrInfoCaption</include>
               </control>
               <control type="label">
-                <info>Network.IPAddress</info>
+                <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
                 <include>FileMgrInfoValue</include>
               </control>
 
