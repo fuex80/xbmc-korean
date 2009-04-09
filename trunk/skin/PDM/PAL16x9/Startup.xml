@@ -94,8 +94,8 @@
 		<description>CPU</description>
 		<posx>640</posx>
 		<posy>236</posy>
-		<info>system.cpuusage</info>
-		<align>right</align>
+    <label>$LOCALIZE[13271] $INFO[system.cpuusage]</label>
+    <align>right</align>
 		<aligny>center</aligny>
 		<font>special13</font>
 		<include>textcolorwhite-50</include>

@@ -1003,13 +1003,13 @@
   </include>
 
   <include name="HomeSubMenuFade">
-    <animation effect="fade" time="300" end="100">WindowOpen"</animation>
-    <animation effect="fade" time="300" end="0" condition="!Window.Next(52)">WindowClose"</animation>
+    <animation effect="fade" time="300" end="100">WindowOpen</animation>
+    <animation effect="fade" time="0" end="0" condition="!Window.Next(52)">WindowClose</animation>
     <animation effect="fade" time="0" end="0" condition="Window.Next(52)">WindowClose</animation>
   </include>
   
   <include name="ButtonMenuFade">
-    <animation effect="fade" time="300" end="100" condition="Window.Previous(52)">WindowOpen"</animation>
+    <animation effect="fade" time="300" end="100" condition="Window.Previous(52)">WindowOpen</animation>
     <animation effect="fade" time="300" end="0" condition="Window.Next(home)">WindowClose</animation>
   </include>
 

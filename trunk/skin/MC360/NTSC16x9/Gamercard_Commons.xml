@@ -417,8 +417,8 @@
 			<description>Network IP</description>
 			<posx>64</posx>
 			<posy>38</posy>
-			<info>Network.IPAddress</info>
-			<font>font12</font>
+      <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
+      <font>font12</font>
 			<textcolor>TextcolorBlack</textcolor>
 			<shadowcolor>shadow-grey</shadowcolor>
 		</control>

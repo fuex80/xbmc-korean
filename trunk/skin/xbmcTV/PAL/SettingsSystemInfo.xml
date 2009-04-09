@@ -133,8 +133,7 @@
    <description>TEST Label</description>
    <posx>400</posx>
    <posy>426</posy>
-   <label>-</label>
-   <info>Network.IPAddress</info>
+   <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
    <align>left</align>
    <font>font13</font>
    <textcolor>button-text</textcolor>
