@@ -608,7 +608,7 @@
 </control>
 
 
-<controlgroup>
+<control type="group">
 
 <visible>!Skin.HasSetting(Wallpaper)</visible>
 <visible>!Skin.HasSetting(Default Wallpaper)</visible>
@@ -672,7 +672,7 @@
 <animation effect="zoom" start="0,0" center="360,200" tween="cubic" time="600">Visible</animation>
 <include>home-backgrounds</include>
 </control>
-</controlgroup>
+</control>
 
 
 <control>
@@ -734,9 +734,7 @@
 
 
 <!-- Home Layout -->
-<control>
-<description>Visualisation Preview</description>
-<type>visualisation</type>
+<control type="visualisation">
 <posx>0</posx>
 <posy>0</posy>
 <width>720</width>
@@ -744,9 +742,7 @@
 <visible>!Skin.HasSetting(home-visualisation)</visible>
 </control>
 
-<control>
-<description>Video Preview</description>
-<type>videowindow</type>
+<control type="videowindow">
 <posx>0</posx>
 <posy>0</posy>
 <width>720</width>
@@ -788,7 +784,7 @@
 
 
 <!-- Music Info Label -->
-<controlgroup>
+<control type="group">
 <posy>-89</posy>
 <posx>50</posx>
 
@@ -913,10 +909,10 @@
 
 <animation effect="slide" end="0,89" delay="5000" time="300">WindowOpen</animation>
 <animation effect="slide" end="0,-89" time="300">Windowclose</animation>
-</controlgroup>
+</control>
 
 <!-- Video Info Label -->
-<controlgroup>
+<control type="group">
 <posy>-527</posy>
 <posx>0</posx>
 
@@ -989,7 +985,7 @@
 </control>
 
 <animation effect="slide" end="0,89" delay="5000" time="300">WindowOpen</animation>
-</controlgroup>
+</control>
 
 
 
@@ -1160,7 +1156,7 @@
 <!---------Home Screen------->
 
 
-<controlgroup>
+<control type="group">
 
 
 
@@ -1443,7 +1439,7 @@
 
 </control>
 
-</controlgroup>
+</control>
 
 
 

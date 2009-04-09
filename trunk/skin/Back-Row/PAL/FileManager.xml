@@ -86,7 +86,7 @@
 
 
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="200">WindowClose</animation>
 <posy>50</posy>
 
@@ -157,47 +157,152 @@
 		<visible effect="fade" time="200" start="hidden">Window.IsActive(3)</visible>
 	</control>
 
-	<control>
-		<description>Left File list</description>
-		<type>listcontrol</type>
-		<id>20</id>
-		<selectedcolor>FFFF9600</selectedcolor>
-		<posx>85</posx>
-		<posy>90</posy>
-		<width>272</width>
-		<height>370</height>
-		<texturefocus>input-focus.png</texturefocus>
-		<texturenofocus>-</texturenofocus>
-		<onleft>21</onleft>
-		<onright>21</onright>
-		<onup>20</onup>
-		<ondown>20</ondown>
-		<textxoff>3</textxoff>
-	<textxoff2>500</textxoff2>
-		<visible effect="fade" time="100" start="hidden">Window.IsActive(3)</visible>
-	</control>
+	<control type="list" id="20">
+<viewtype label="535">list</viewtype>
+<visible effect="fade" time="100" start="hidden">Window.IsActive(3)</visible>
+<posx>85</posx>
+<posy>80</posy>
+<width>272</width>
+<height>360</height>
+<onleft>21</onleft>
+<onright>21</onright>
+<onup>20</onup>
+<ondown>20</ondown>
+<pagecontrol>90</pagecontrol>
 
-	<control>
-		<description>Right File list</description>
-		<type>listcontrol</type>
-		<id>21</id>
-		<selectedcolor>FFFF9600</selectedcolor>
-		<posx>372</posx>
-		<posy>90</posy>
-		<width>272</width>
-		<height>370</height>
-		<texturefocus>input-focus.png</texturefocus>
-		<texturenofocus>-</texturenofocus>
-		<onleft>20</onleft>
-		<onright>20</onright>
-		<onup>21</onup>
-		<ondown>21</ondown>
-		<textxoff>3</textxoff>
-	<textxoff2>500</textxoff2>
-		<visible effect="fade" time="100" start="hidden">Window.IsActive(3)</visible>
-	</control>
+<itemlayout height="29">
+<control type="image">
+<posx>5</posx>
+<posy>2</posy>
+<width>20</width>
+<height>20</height>
+<info>ListItem.Icon</info>
+<aspectratio>keep</aspectratio>
+</control>
+<control type="label">
+<posx>35</posx>
+<posy>0</posy>
+<width>230</width>
+<height>29</height>
+<font>special14</font>
+<aligny>center</aligny>
+<textcolor>white</textcolor>
+<include>selectedcolor</include>
+<info>ListItem.Label</info>
+</control>
+</itemlayout>
 
-	</controlgroup>
+<focusedlayout height="40">
+
+<control type="image">
+<posx>0</posx>
+<posy>0</posy>
+<width>270</width>
+<height>40</height>
+<texture>input-focus.png</texture>
+<visible>Control.HasFocus(20)</visible>
+</control>
+
+<control type="image">
+<posx>5</posx>
+<posy>4</posy>
+<width>28</width>
+<height>32</height>
+<info>ListItem.Icon</info>
+<aspectratio>keep</aspectratio>
+</control>
+
+
+<control type="label">
+<posx>35</posx>
+<posy>0</posy>
+<width>230</width>
+<height>40</height>
+<font>special17</font>
+<aligny>center</aligny>
+<textcolor>white</textcolor>
+<include>selectedcolor</include>
+<scroll>true</scroll>
+<scrolltime>100</scrolltime>
+<info>ListItem.Label</info>
+</control>
+</focusedlayout>
+</control>
+
+<control type="list" id="21">
+<viewtype label="535">list</viewtype>
+<visible effect="fade" time="100" start="hidden">Window.IsActive(3)</visible>
+<posx>372</posx>
+<posy>80</posy>
+<width>272</width>
+<height>360</height>
+<onleft>20</onleft>
+<onright>20</onright>
+<onup>21</onup>
+<ondown>21</ondown>
+<pagecontrol>90</pagecontrol>
+
+<itemlayout height="29">
+<control type="image">
+<posx>5</posx>
+<posy>2</posy>
+<width>20</width>
+<height>20</height>
+<info>ListItem.Icon</info>
+<aspectratio>keep</aspectratio>
+</control>
+<control type="label">
+<posx>35</posx>
+<posy>0</posy>
+<width>230</width>
+<height>29</height>
+<font>special14</font>
+<aligny>center</aligny>
+<textcolor>white</textcolor>
+<include>selectedcolor</include>
+<info>ListItem.Label</info>
+</control>
+</itemlayout>
+
+<focusedlayout height="40">
+
+<control type="image">
+<posx>0</posx>
+<posy>0</posy>
+<width>270</width>
+<height>40</height>
+<texture>input-focus.png</texture>
+<visible>Control.HasFocus(21)</visible>
+</control>
+
+<control type="image">
+<posx>5</posx>
+<posy>4</posy>
+<width>28</width>
+<height>32</height>
+<info>ListItem.Icon</info>
+<aspectratio>keep</aspectratio>
+</control>
+
+
+<control type="label">
+<posx>35</posx>
+<posy>0</posy>
+<width>230</width>
+<height>40</height>
+<font>special17</font>
+<aligny>center</aligny>
+<textcolor>white</textcolor>
+<include>selectedcolor</include>
+<scroll>true</scroll>
+<scrolltime>100</scrolltime>
+<info>ListItem.Label</info>
+</control>
+</focusedlayout>
+</control>
+
+
+	</control>
 
 <control type="group">
 			<visible>System.HasDriveG</visible>

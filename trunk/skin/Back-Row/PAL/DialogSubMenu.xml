@@ -16,7 +16,7 @@
 	<controls>
 		
 
-		<controlgroup>
+		<control type="group">
 		
            <control>
             <type>image</type>
@@ -394,7 +394,7 @@
 
 <animation effect="slide" end="-212,0" delay="50" tween="cubic" time="400">WindowOpen</animation>
 <animation effect="slide" start="-212,0" end="5,0" delay="50" tween="cubic" time="400">WindowClose</animation>
-</controlgroup>
+</control>
 
 	</controls>
 </window>

@@ -7,7 +7,7 @@
 	
 <controls>
 
-<controlgroup>
+<control type="group">
 
 	<control type="image">
 		<description>Background</description>
@@ -350,7 +350,7 @@
 			<righttexture></righttexture>
 			<overlaytexture>-</overlaytexture>
 			</control>
-</controlgroup>
+</control>
 
 
 

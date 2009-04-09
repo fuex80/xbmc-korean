@@ -3,7 +3,7 @@
 	<defaultcontrol>2</defaultcontrol>
 	<controls>
 
-<controlgroup>
+<control type="group">
 <posy>0</posy>
 <posx>-400</posx>
 
@@ -57,7 +57,7 @@
 
 	<animation effect="slide" end="400,0" delay="5000" time="300">WindowOpen</animation>
 	<visible>!Window.IsActive(0)</visible>
-</controlgroup>
+</control>
 
 
 	</controls>

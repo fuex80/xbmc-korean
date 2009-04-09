@@ -8,7 +8,7 @@
 	</coordinates>
 	<controls>
 
-<controlgroup>
+<control type="group">
 	 <control>
             <type>image</type>
             <posx>-205</posx>
@@ -110,7 +110,7 @@
 
          <animation effect="slide" end="203,0" delay="50" tween="cubic" time="400">WindowOpen</animation>
          <animation effect="slide" start="203,0" end="-203,0" delay="50" tween="cubic" time="600">WindowClose</animation>
-		 </controlgroup>
+		 </control>
 	</controls>
 
 

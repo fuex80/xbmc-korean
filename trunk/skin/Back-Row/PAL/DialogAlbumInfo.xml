@@ -4,7 +4,7 @@
 <allowoverlay>yes</allowoverlay>
 
 <controls>
-<controlgroup>
+<control type="group">
 <animation effect="slide" time="600" start="650,0" end="0,0" acceleration="-1" condition="!Skin.HasSetting(animated)">WindowOpen</animation>
 <animation effect="slide" time="600" start="0,0" end="730,0" acceleration="-1" condition="!Skin.HasSetting(animated)">WindowClose</animation>
 <visible>Container.Content(Albums)</visible>	
@@ -321,9 +321,9 @@
 </control>
 
 <include>Music-Info</include>
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <animation effect="slide" time="600" start="650,0" end="0,0" acceleration="-1" condition="!Skin.HasSetting(animated)">WindowOpen</animation>
 <animation effect="slide" time="600" start="0,0" end="730,0" acceleration="-1" condition="!Skin.HasSetting(animated)">WindowClose</animation>
 <visible>Container.Content(Artists)</visible>	
@@ -660,7 +660,7 @@
 </control>
 
 <include>Music-Info</include>
-</controlgroup>
+</control>
 
 </controls>
 </window>

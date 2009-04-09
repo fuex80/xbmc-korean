@@ -111,7 +111,7 @@
     <label>8</label>
     </control>
 
-	<controlgroup>
+	<control type="group">
 <posy>93</posy>
 <control type="image">
     <description>header</description>
@@ -123,10 +123,10 @@
 	<animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
    </control>
-	</controlgroup>
+	</control>
 
 
-	<controlgroup>
+	<control type="group">
 	<animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
 	<posy>129</posy>
@@ -171,9 +171,9 @@
 		<onclick>ActivateWindow(MyWeatherSettings)</onclick>
 		<include>slideleft</include>
 	</control>
-	</controlgroup>
+	</control>
 	
-	<controlgroup>
+	<control type="group">
      <posy>115</posy>
      <posx>40</posx>
 	
@@ -324,7 +324,7 @@
 		<posy>90</posy>
 		<height>140</height>
 		<width>140</width>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 		<texture>background-myweather.png</texture>
 		<include>slideright</include>
 		<animation effect="fade" time="200">WindowOpen</animation>
@@ -423,9 +423,9 @@
 		<animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
 	</control>
-</controlgroup>
+</control>
 	
-<controlgroup>
+<control type="group">
 <posy>15</posy>
 	<control>
 		<description>day 0 label</description>
@@ -508,7 +508,7 @@
 		<posy>425</posy>
 		<height>64</height>
 		<width>64</width>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 		<texture>background-myweather.png</texture>
 		<include>slideright</include>
 		<animation effect="fade" time="200">WindowOpen</animation>
@@ -596,7 +596,7 @@
 		<posy>425</posy>
 		<height>64</height>
 		<width>64</width>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 		<texture>background-myweather.png</texture>
 		<include>slideright</include>
 		<animation effect="fade" time="200">WindowOpen</animation>
@@ -684,7 +684,7 @@
 		<posy>425</posy>
 		<height>64</height>
 		<width>64</width>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 		<texture>background-myweather.png</texture>
 		<include>slideright</include>
 		<animation effect="fade" time="200">WindowOpen</animation>
@@ -772,13 +772,13 @@
 		<posy>425</posy>
 		<height>64</height>
 		<width>64</width>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 		<texture>background-myweather.png</texture>
 		<include>slideright</include>
 		<animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
 	</control>
-</controlgroup>
+</control>
 
 	<include>Music-Info</include>
 	

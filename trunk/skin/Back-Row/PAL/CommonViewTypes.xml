@@ -1350,7 +1350,7 @@
 <animation effect="fade" time="800">WindowClose</animation>
 </control>
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="800">WindowClose</animation>
 <posy>80</posy>
 <posx>15</posx>
@@ -1421,7 +1421,7 @@
 </focusedlayout>
 
 </control>
-</controlgroup>
+</control>
 
 <control type="label">
 <posx>0</posx>
@@ -1490,7 +1490,7 @@
 <animation effect="fade" time="800">WindowClose</animation>
 </control>
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="800">WindowClose</animation>
 <posy>80</posy>
 <posx>15</posx>
@@ -1562,7 +1562,7 @@
 </focusedlayout>
 
 </control>
-</controlgroup>
+</control>
 
 <control type="label">
 <posx>0</posx>
@@ -3110,7 +3110,7 @@
 <animation effect="fade" time="200">Windowclose</animation>
 </control>
 
-<controlgroup>
+<control type="group">
 
 <control type="wraplist" id="55">
 <visible>Container.Content(Movies)</visible>
@@ -3242,9 +3242,9 @@
 
 <animation effect="fade" time="10">WindowClose</animation> 
 <animation effect="slide" time="600" start="-245,0" end="0,0" acceleration="-1">WindowOpen</animation>
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="10">Windowclose</animation>
 
 <control type="wraplist" id="55">
@@ -3354,9 +3354,9 @@
 </control>
 
 <animation effect="slide" time="600" start="-245,0" end="0,0" acceleration="-1">WindowOpen</animation>
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="10">Windowclose</animation>
 
 <control type="wraplist" id="55">
@@ -3464,9 +3464,9 @@
 </control>
 
 <animation effect="slide" time="600" start="-245,0" end="0,0" acceleration="-1">WindowOpen</animation>
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <visible>Container.Content(movies)</visible>
 <control type="image">
 <posx>40</posx>
@@ -3526,9 +3526,9 @@
 
 <animation effect="slide" time="600" start="0,576" end="0,0" acceleration="-1">WindowOpen</animation>
 
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <posy></posy>
 <animation effect="fade" time="10">WindowClose</animation> 
 <visible>Container.Content(seasons)</visible>
@@ -3574,9 +3574,9 @@
 <visible>Control.IsVisible(55)</visible>
 </control>
 
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <visible>Container.Content(tvshows)</visible>
 <posy>-20</posy>
 <animation effect="fade" time="10">WindowClose</animation> 
@@ -3730,10 +3730,10 @@
 
 <animation effect="slide" time="600" start="0,576" end="0,0" acceleration="-1">WindowOpen</animation>
 
-</controlgroup>
+</control>
 
 
-<controlgroup>
+<control type="group">
 <visible>Container.Content(episodes)</visible>
 <posy>-20</posy>
 <animation effect="fade" time="10">WindowClose</animation>
@@ -3909,7 +3909,7 @@
 
 <animation effect="slide" time="600" start="0,576" end="0,0" acceleration="-1">WindowOpen</animation>
 
-</controlgroup>
+</control>
 
 
 </include>
@@ -10139,7 +10139,7 @@
 
 
 
-<Controlgroup>
+<control type="group">
 <posy>0</posy>
 
 <control type="list" id="50">
@@ -10762,7 +10762,7 @@
 <animation effect="zoom" end="282,345,20,20" time="150" condition="Control.IsVisible(50) + System.IdleTime(2)">Conditional</animation>
 </control>
 
-</Controlgroup>
+</control>
 
 </include>
 
@@ -11258,7 +11258,7 @@
 </control>
 
 
-<controlgroup>
+<control type="group">
 
 <posy>0</posy>
 
@@ -12106,9 +12106,9 @@
 
 
 
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <control type="wraplist" id="58">
 <visible>container.content(tvshows)</visible>
 <visible>Skin.HasSetting(TV Poster)</visible>
@@ -12216,9 +12216,9 @@
 </control>
 
 
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 <control type="wraplist" id="58">
 <visible>Container.Content(Movies)</visible>
 <viewtype label="FanArt">Plot List</viewtype>
@@ -12325,9 +12325,9 @@
 </control>
 
 
-</controlgroup>
+</control>
 
-<controlgroup>
+<control type="group">
 
 <control type="wraplist" id="58">
 <visible>Container.Content(Seasons) | Container.Content(episodes)</visible>
@@ -12437,7 +12437,7 @@
 </control>
 
 
-</controlgroup>
+</control>
 
 </include>
 

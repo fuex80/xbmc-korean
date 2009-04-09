@@ -1,8 +1,7 @@
 <window>
 	<id>113</id>
 	<defaultcontrol>901</defaultcontrol>
-	<include>dialog-effect-mute</include> 
-	<coordinates>
+		<coordinates>
 	<system>1</system>
 	<origin x="535" y="40">true</origin>
 	</coordinates>
@@ -12,12 +11,12 @@
 		<description>Mute Image</description>
 		<type>image</type>
 		<id>901</id>
-		<posx>70</posx>
-		<posy>16</posy>
-		<width>30</width>
-		<height>40</height>
+		<posx>95</posx>
+		<posy>-30</posy>
+		<width>70</width>
+		<height>80</height>
 		<texture>icon-mute.png</texture>
-		<keepaspectratio>true</keepaspectratio>
+		<aspectratio>keep</aspectratio>
 	</control>
 
 	</controls>
