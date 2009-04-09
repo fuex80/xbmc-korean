@@ -1072,11 +1072,10 @@
       <visible>Skin.HasSetting(HomeViewToggle)</visible>
       <posx>505</posx>
       <posy>205</posy>
-      <label>-</label>
+      <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
       <width>125</width>
       <align>left</align>
       <font>font101</font>
-      <info>Network.IPAddress</info>
     </control>
 
   </controls>

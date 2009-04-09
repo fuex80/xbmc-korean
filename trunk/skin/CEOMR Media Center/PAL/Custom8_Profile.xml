@@ -526,11 +526,10 @@
       <visible>Skin.HasSetting(HomeViewToggle)</visible>
       <posx>505</posx>
       <posy>205</posy>
-      <label>-</label>
+      <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
       <width>125</width>
       <align>left</align>
       <font>font101</font>
-      <info>Network.IPAddress</info>
     </control>
 
 
@@ -616,7 +615,7 @@
           </control>
 
     <control type="button" id="23">
-      <description>Auflösung anzeigen</description>
+      <description>AuflÃ¶sung anzeigen</description>
       <visible>true</visible>
       <include>control</include>
       <height>27</height>
@@ -806,7 +805,7 @@
           </control>
 
     <control type="button" id="28">
-      <description>Hintergrund zurücksetzen</description>
+      <description>Hintergrund zurÃ¼cksetzen</description>
       <visible>Skin.HasSetting(hintergrund)</visible>
       <include>control</include>
       <height>28</height>

@@ -178,7 +178,7 @@
 				<description>Label 2</description>
 				<posx>215</posx>
 				<posy>150</posy>
-				<label>$INFO[system.cpuusage]</label>
+				<label>$LOCALIZE[13271] $INFO[system.cpuusage]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -200,7 +200,7 @@
 				<description>Label 3</description>
 				<posx>215</posx>
 				<posy>193</posy>
-				<label>$LOCALIZE[139] $INFO[system.cputemperature]  -  $INFO[system.gputemperature]</label>
+				<label>$LOCALIZE[139] $LOCALIZE[22011] $INFO[system.cputemperature]  -  $LOCALIZE[22010] $INFO[system.gputemperature]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -208,7 +208,7 @@
 				<description>Label 4</description>
 				<posx>215</posx>
 				<posy>221</posy>
-				<label>$INFO[system.fanspeed]</label>
+				<label>$LOCALIZE[13300]: $INFO[system.fanspeed]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -247,7 +247,7 @@
 				<description>Label 6</description>
 				<posx>215</posx>
 				<posy>292</posy>
-				<label>$INFO[Network.IPAddress]</label>
+				<label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -255,7 +255,7 @@
 				<description>Label 7</description>
 				<posx>215</posx>
 				<posy>320</posy>
-				<label>$INFO[system.screenresolution]</label>
+				<label>$LOCALIZE[13287] $INFO[system.screenresolution]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -263,7 +263,7 @@
 				<description>Label 8</description>
 				<posx>215</posx>
 				<posy>348</posy>
-				<label>$INFO[system.kernelversion]</label>
+        <label>$LOCALIZE[13283] $INFO[system.kernelversion]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -271,7 +271,7 @@
 				<description>Label 9</description>
 				<posx>215</posx>
 				<posy>376</posy>
-				<label>$INFO[system.uptime]</label>
+				<label>$LOCALIZE[12390]: $INFO[system.uptime]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -279,7 +279,7 @@
 				<description>Label 10</description>
 				<posx>215</posx>
 				<posy>404</posy>
-				<label>$INFO[system.totaluptime]</label>
+				<label>$LOCALIZE[12394]: $INFO[system.totaluptime]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -464,7 +464,7 @@
 					<description>Label 10</description>
 					<posx>215</posx>
 					<posy>414</posy>
-					<label>$INFO[system.freespace]</label>
+					<label>$LOCALIZE[20161]: $INFO[system.freespace]</label>
 					<font>font13</font>
 					<textcolor>d0ffffff</textcolor>
 				</control>
@@ -473,7 +473,7 @@
 					<posx>680</posx>
 					<posy>414</posy>
 					<align>right</align>
-					<label>$INFO[system.totalspace]</label>
+					<label>$LOCALIZE[20161]: $INFO[system.totalspace]</label>
 					<font>font13</font>
 					<textcolor>d0ffffff</textcolor>
 				</control>
@@ -660,7 +660,7 @@
 				<description>Label 5</description>
 				<posx>215</posx>
 				<posy>234</posy>
-				<label>$INFO[network.ipaddress]</label>
+				<label>$LOCALIZE[150]: $INFO[network.ipaddress]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -676,7 +676,7 @@
 				<description>Label 7</description>
 				<posx>215</posx>
 				<posy>290</posy>
-				<label>$INFO[network.gatewayadress]</label>
+				<label>$LOCALIZE[13160]: $INFO[network.gatewayadress]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -684,7 +684,7 @@
 				<description>Label 8</description>
 				<posx>215</posx>
 				<posy>318</posy>
-				<label>$INFO[network.dns1adress]</label>
+				<label>$LOCALIZE[13161]: $INFO[network.dns1adress]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -692,7 +692,7 @@
 				<description>Label 9</description>
 				<posx>215</posx>
 				<posy>346</posy>
-				<label>$INFO[network.dns2adress]</label>
+				<label>$LOCALIZE[20307]: $INFO[network.dns2adress]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -700,7 +700,7 @@
 				<description>Label 10</description>
 				<posx>215</posx>
 				<posy>374</posy>
-				<label>$INFO[system.internetstate]</label>
+				<label>$LOCALIZE[13295] $INFO[system.internetstate]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -728,7 +728,7 @@
 				<description>Label 3</description>
 				<posx>215</posx>
 				<posy>178</posy>
-				<label>$INFO[system.screenresolution]</label>
+				<label>$LOCALIZE[13287] $INFO[system.screenresolution]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
@@ -780,7 +780,7 @@
 				<description>Label 4</description>
 				<posx>215</posx>
 				<posy>206</posy>
-				<label>$INFO[system.cpufrequency]</label>
+				<label>$LOCALIZE[13284] $INFO[system.cpufrequency]</label>
 				<font>font13</font>
 				<textcolor>d0ffffff</textcolor>
 			</control>
