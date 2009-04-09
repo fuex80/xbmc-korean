@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+
+	<string id="31000">사진</string>
+	<string id="31001">서비스</string>
+	<string id="31002">플러그인</string>
+  <string id="31003">클립</string>
+  <string id="31004">에뮬레이터</string>
+  <string id="31005">계절</string>
+	
+	<string id="31010">환영합니다</string>
+	<string id="31011">[COLOR=FocusedTextColor]XBMC Connected[/COLOR] 선택해 주어서 감사합니다 .[CR]최근 XBMC 사용을 권장합니다.</string>
+	<string id="31012">설정에서 스킨 옵션을 확인하세요.[CR]처음 화면에서 오른쪽을 눌러서 갈수있음.</string>
+	<string id="31013">XBMC Connected</string>
+
+	<string id="31020">옵션</string>
+	<string id="31021">와이드</string>
+  <string id="31022">팬아트</string>
+  <string id="31023">기울어짐</string>
+  <string id="31024">프로파일 불러옴</string>
+  <string id="31025">프로파일 서정</string>
+  <string id="31026">H:</string>
+  <string id="31027">L:</string>
+  <string id="31028">현재 상황</string>
+  <string id="31029">미리보기:</string>
+
+  <string id="31030">일시정지</string>
+  <string id="31031">뒤로 가기</string>
+  <string id="31032">앞으로 가기</string>
+  <string id="31033">재생중</string>
+  <string id="31040">뒤로 건너뛰기</string>
+  <string id="31041">되돌림</string>
+  <string id="31042">정지</string>
+  <string id="31043">일시정지</string>
+  <string id="31044">앞으로</string>
+  <string id="31045">앞으로 건너뛰기</string>
+  <string id="31046">재생</string>
+  <string id="31047">묵음</string>
+
+  <string id="31501">배경</string>
+  <string id="31502">활성화</string>
+	<string id="31503">처음 화면 애니메이션</string>
+	<string id="31504">스킨 다시 불러오기</string>
+	<string id="31505">스킨 설정 초기화</string>
+	<string id="31506">팬아트 경로:</string>
+	<string id="31507">아이콘 선택</string>
+	<string id="31508">이미지 선택</string>
+	<string id="31509">아이콘 오버레이</string>
+  <string id="31510">보기종류</string>
+  <string id="31511">레이블 정렬</string>
+  <string id="31512">포스터</string>
+  <string id="31513">정보 포함</string>
+  <string id="31514">환경</string>
+  <string id="31515">꽉찬 배경화면</string>
+  <string id="31516">꽉찬 배경 비디오</string>
+  <string id="31517">꽉찬 음악 시각화</string>
+  <string id="31518">재생 정보 시간</string>
+  <string id="31519">지원되는 보기종류</string>
+  <string id="31520">대화상자 스크롤바 표시</string>
+	<string id="31521">윈도우 스크롤바 표시</string>
+	<string id="31522">날씨 스크립트</string>
+	<string id="31523">스크립트 경로 설정:</string>
+	<string id="31524">사용자 배경화면</string>
+	<string id="31525">배경화면 초기화</string>
+  <string id="31526">기타</string>
+  <string id="31527">스크립트 레이블 설정:</string>
+  <string id="31528">비디오 배경 폴더 설정:</string>
+  <string id="31529">음악 배경 폴더 설정:</string>
+  <string id="31530">사진 배경 폴더 설정:</string>
+  <string id="31531">작은 스캔 대화상자</string>
+
+  <string id="31540">비디오 설정 변경:[CR][CR]- 파일 하나로 합치기[CR]- 라이브러리 옵션[CR]- 화면 조정[CR]- 플레이어 옵션[CR]- 자막 형식</string>
+  <string id="31541">음악 설정 변경:[CR][CR]- 음악 시각화[CR]- 라이브러리 옵션[CR]- 플레이어 옵션[CR]- Last.FM[CR]- CD 리핑[CR]- 노래방</string>
+  <string id="31542">사진 설정 변경:[CR][CR]- 파일 옵션[CR]- 슬라이드쇼</string>
+  <string id="31543">서비스 설정 변경:[CR][CR]- 비디오 모드[CR]- 트레이너 옵션</string>
+  <string id="31544">날씨 설정 변경:[CR][CR]- 도시[CR]- 지역[CR]- 우편번호</string>
+  <string id="31545">네트웍 설정 변경:[CR][CR]- IP 주소 &amp; HTTP 프록시[CR]- FTP &amp; 웹서버 설정[CR]- 자동 설정 시스템[CR]- SMB 클라이언트 [CR]- uPnP 설정</string>
+  <string id="31546">시스템 설정 변경:[CR][CR]- 디버그 로깅[CR]- LED 색상[CR]- LCD 설정[CR]- 자동실행[CR]- 하드디스크 관리[CR]- 캐쉬 메모리[CR]- 비디오 &amp; Audio Hardware[CR]- Master Lock</string>
+  <string id="31547">Configure Display settings, Including:[CR][CR]- Skin Selection[CR]- RSS Options[CR]- Region Selection[CR]- Date &amp; Time[CR]- Screen 해상도[CR]- 화면 보호기 옵션</string>
+  <string id="31548">프로파일 변경[CR][CR]- 프로파일 만들기[CR]- 프로파일 삭제[CR]- 사용자 설정[CR]- 프로파일 잠금</string>
+  <string id="31549">시스템 정보 보기:[CR][CR]- 저장장치[CR]- 하드웨어[CR]- 네트웍[CR]- 비디오[CR]- XBMC 크레딧</string>
+  <string id="31550">스킨 설정 변경:[CR][CR]- 첫화면 옵션[CR]- 미디어 보기 설정[CR]- 배경화면 옵션[CR]- 스크롤바 안보기/보기[CR]- 스킨 설정 초기화</string>
+</strings>
