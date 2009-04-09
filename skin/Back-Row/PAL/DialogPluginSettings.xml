@@ -34,7 +34,7 @@
 	</control>
 
 		
-	<controlgroup>
+	<control type="group">
 	<animation effect="slide" time="600" start="650,0" end="0,0" acceleration="-1">WindowOpen</animation>
 	<animation effect="slide" time="600" start="0,0" end="730,0" acceleration="-1">WindowClose</animation>
      <posy>50</posy>
@@ -111,10 +111,10 @@
 			<height>5</height>
 			<texture>separator.png</texture>
 		</control>	
-		</controlgroup>
+		</control>
 		
 		
-		<controlgroup>
+		<control type="group">
 	<animation effect="slide" time="600" start="650,0" end="0,0" acceleration="-1">WindowOpen</animation>
 	<animation effect="slide" time="600" start="0,0" end="730,0" acceleration="-1">WindowClose</animation>
 
@@ -171,7 +171,7 @@
 		
 
 		</control>
-          </controlgroup>
+          </control>
 		
 		
 	</controls>

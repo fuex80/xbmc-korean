@@ -24,7 +24,7 @@
 <animation effect="slide" time="600" start="0,0" end="730,0" acceleration="-1">WindowClose</animation>
 </control>
 
-<controlgroup>
+<control type="group">
 <system>1</system>
 <posx>150</posx>
 <posy>100</posy>
@@ -241,6 +241,6 @@
 
 </control>
 
-</controlgroup>
+</control>
 </controls>
 </window>

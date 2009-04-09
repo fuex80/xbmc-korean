@@ -62,7 +62,7 @@
 
 <include>PlotList</include>
 
-<controlgroup>
+<control type="group">
 <animation effect="fade" time="200">WindowClose</animation>
 
 <include>listcontrol2</include>
@@ -99,6 +99,7 @@
 	<visible>container.content(movies)</visible>
 	<visible>![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
     <visible>[!Control.IsVisible(59) | !Container(59).Row(0) | !Container.Content(Movies)]</visible>
+	<visible>[!Control.IsVisible(52) | !Container(52).Row(0) | !Container.Content(Movies)]</visible>
 	</control>
 
 	<control type="label">
@@ -150,7 +151,7 @@
 
 	
 	
-</controlgroup>
+</control>
 
 	
    <control type="image">
@@ -163,7 +164,7 @@
      <visible allowhiddenfocus="true">![Window.Next(Home) | Control.HasFocus(50) | Control.HasFocus(51) | Control.HasFocus(52) | Control.HasFocus(53) | Control.HasFocus(54) | Control.HasFocus(55) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(56) | Control.HasFocus(57) | Control.HasFocus(58) | Control.HasFocus(59) | Control.HasFocus(90) | Control.HasFocus(91) | Control.HasFocus(92)]</visible>
    </control>
 
-<controlgroup>
+<control type="group">
   <posx>10</posx>
   <posy>-45</posy>
 
@@ -328,7 +329,7 @@
     <visible allowhiddenfocus="true">![Window.Next(Home) | Control.HasFocus(50) | Control.HasFocus(51) | Control.HasFocus(52) | Control.HasFocus(53) | Control.HasFocus(54) | Control.HasFocus(55) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(56) | Control.HasFocus(57) | Control.HasFocus(58) | Control.HasFocus(59) | Control.HasFocus(90) | Control.HasFocus(91) | Control.HasFocus(92)]</visible>
    </control>
 
-</controlgroup>
+</control>
 
 
 	<include>Music-Info</include>

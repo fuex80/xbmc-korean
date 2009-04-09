@@ -95,7 +95,7 @@
 <visible>Player.ShowInfo + Player.HasAudio</visible>
 </control>
 
-	<controlgroup>
+	<control type="group">
 <posx>-50</posx>
 <posy>20</posy>
 	<control>
@@ -213,7 +213,7 @@
 		<visible>Player.ShowInfo + Player.HasAudio</visible>
 		</control>
 
-</controlgroup>
+</control>
 
 	</controls>
 </window>

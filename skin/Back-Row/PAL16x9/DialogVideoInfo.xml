@@ -318,18 +318,29 @@
                 <visible>substring(listitem.mpaa,Rated G)</visible>
 				<visible>!container.content(tvshows) + !container.content(episodes) + !container.content(musicvideos)</visible>
 		</control>
+
+		<control type="image">
+<posx>25</posx>
+<posy>75</posy>
+<width>106</width>
+<height>208</height>
+<info>ListItem.thumb</info>
+<texture diffuse="mask wall.png">defaultdvdposter.png</texture>
+<aspectratio>stretch</aspectratio>
+<visible>container.content(movies)</visible>
+</control>
+
+<control type="image">
+<posx>25</posx>
+<posy>75</posy>
+<width>106</width>
+<height>208</height>
+<texture>mask glass wall.png</texture>
+<aspectratio>stretch</aspectratio>
+<visible>container.content(movies)</visible>
+</control>
 			
-			<control type="image" id="3">
-				<description>Cover image</description>
-				<posx>10</posx>
-				<posy>70</posy>
-				<width>130</width>
-				<height>210</height>
-				<info>Listitem.Icon</info>
-				<aspectratio>keep</aspectratio>
-				<align>center</align>
-				<visible>!container.content(tvshows) + !container.content(episodes) + !container.content(musicvideos)</visible>
-			</control>
+			
 			
 			<control type="image">
 				<description>Actor image</description>
@@ -394,8 +405,21 @@
 				<width>520</width>
 				<height>120</height>
 				<align>center</align>
-				<info>Listitem.Icon</info>
-				<aspectratio>stretch</aspectratio>
+				<info>ListItem.thumb</info>
+                <texture diffuse="Mask wide.png">default wide poster.png</texture>
+                <aspectratio>stretch</aspectratio>
+				<visible>container.content(tvshows)</visible>
+			</control>
+
+			<control type="image" id="3">
+				<description>TV Show Banner image</description>
+				<posx>100</posx>
+				<posy>95</posy>
+				<width>520</width>
+				<height>120</height>
+				<align>center</align>
+				<texture>mask glass wide.png</texture>
+                <aspectratio>stretch</aspectratio>
 				<visible>container.content(tvshows)</visible>
 			</control>
 
@@ -522,18 +546,27 @@
         <visible>Skin.HasSetting(TV Poster)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
-			<control type="image" id="3">
-				<description>TV Show Poster image</description>
-				<posx>20</posx>
-				<posy>80</posy>
-				<width>130</width>
-				<height>210</height>
-				<info>Listitem.Icon</info>
-				<aspectratio>keep</aspectratio>
-				<align>center</align>
-				<visible>container.content(tvshows)</visible>
-			</control>
+			
+<control type="image">
+<posx>25</posx>
+<posy>75</posy>
+<width>106</width>
+<height>208</height>
+<info>ListItem.Icon</info>
+<texture diffuse="mask wall.png">defaultdvdposter.png</texture>
+<aspectratio>stretch</aspectratio>
+</control>
 
+<control type="image">
+<posx>25</posx>
+<posy>75</posy>
+<width>106</width>
+<height>208</height>
+<texture>mask glass wall.png</texture>
+<aspectratio>stretch</aspectratio>
+</control>
+			
+			
 		
 				<control type="label" id="20">
 				<description>TV Show Title value</description>
@@ -642,6 +675,7 @@
 		<control type="group">
 			<posx>0</posx>
 			<posy>-30</posy>
+			
 			<control type="image">
 				<description>Cover image</description>
 				<posx>470</posx>

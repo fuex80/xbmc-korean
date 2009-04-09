@@ -109,7 +109,7 @@
 <posx>65</posx>
 <posy>105</posy>
 <width>590</width>
-<height>465</height>
+<height>475</height>
 <texture>black.png</texture>
 <animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
@@ -132,7 +132,7 @@
 <posx>65</posx>
 <posy>105</posy>
 <width>590</width>
-<height>465</height>
+<height>475</height>
 <texture>edge.png</texture>
 <animation effect="fade" time="200">WindowOpen</animation>
 <animation effect="fade" time="200">WindowClose</animation> 
@@ -187,7 +187,7 @@
 
 
 
-<controlgroup id="1">
+<control type="group" id="1">
 
 <posx>0</posx>
 <posy>20</posy>
@@ -197,7 +197,7 @@
 <control>
 <description>Home Options Button</description>
 <type>button</type>
-<id>1</id>
+<id>66</id>
 <posx>68</posx>
 <posy>88</posy>
 <include>20000</include>
@@ -232,7 +232,7 @@
 <aligny>center</aligny>
 <width>116</width>
 <height>35</height>
-<onleft>1</onleft>
+<onleft>66</onleft>
 <onright>4</onright>
 <onup>701</onup>
 <ondown>701</ondown>
@@ -302,7 +302,7 @@
 <width>116</width>
 <height>35</height>
 <onleft>14</onleft>
-<onright>1</onright>
+<onright>66</onright>
 <onup>96</onup>
 <ondown>96</ondown>
 <include>slideleft</include>
@@ -310,7 +310,7 @@
 </control>
 
 
-</controlgroup>
+</control>
 
 <!-- Home Options - Weather -->
 <control type="group" id="2">
@@ -333,10 +333,10 @@
 <height>30</height>
 <onleft>1</onleft>
 <onright>1</onright>
-<onup>514</onup>
+<onup>515</onup>
 <ondown>503</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - RSS Feeds -->
@@ -360,7 +360,7 @@
 <onup>502</onup>
 <ondown>504</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <control>
@@ -372,7 +372,7 @@
 <height>10</height>
 <texture>separator.png</texture>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -398,7 +398,7 @@
 <onup>503</onup>
 <ondown>505</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - Programs Toggle -->
@@ -422,7 +422,7 @@
 <onup>504</onup>
 <ondown>506</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - Enable Movies/TV Toggle -->
@@ -446,7 +446,7 @@
 <onup>505</onup>
 <ondown>507</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - Files Toggle -->
@@ -470,7 +470,7 @@
 <onup>506</onup>
 <ondown>508</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -495,7 +495,7 @@
 <onup>507</onup>
 <ondown>509</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -522,7 +522,7 @@
 <onup>508</onup>
 <ondown>510</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -535,7 +535,7 @@
 <height>10</height>
 <texture>separator.png</texture>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - Library Toggle -->
@@ -559,7 +559,7 @@
 <onup>509</onup>
 <ondown>512</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -584,7 +584,7 @@
 <onup>510</onup>
 <ondown>513</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 
@@ -610,7 +610,7 @@
 <onup>512</onup>
 <ondown>514</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <!-- Home Options - Dark Mask Overlay -->
@@ -632,9 +632,33 @@
 <onleft>1</onleft>
 <onright>1</onright>
 <onup>513</onup>
+<ondown>515</ondown>
+<include>slideright</include>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
+</control>
+
+<!-- Home Options - Smaller Home Film Strip -->
+<control>
+<description>"Smaller Home Film Strip</description>
+<type>radiobutton</type>
+<id>515</id>
+<posx>80</posx>
+<posy>499</posy>
+<include>20033</include>
+<font>font64</font>
+<onclick>Skin.ToggleSetting(Small Film Strip)</onclick>
+<selected>Skin.HasSetting(Small Film Strip)</selected>
+<align>left</align>
+<texturefocus>input-focus.png</texturefocus>
+<texturenofocus></texturenofocus>
+<width>560</width>
+<height>30</height>
+<onleft>1</onleft>
+<onright>1</onright>
+<onup>514</onup>
 <ondown>502</ondown>
 <include>slideright</include>
-<visible>Control.HasFocus(1) | ControlGroup(2).HasFocus()</visible>
+<visible>Control.HasFocus(66) | ControlGroup(2).HasFocus()</visible>
 </control>
 
 <animation effect="fade" time="200">WindowOpen</animation>
@@ -2317,7 +2341,7 @@
 <animation effect="fade" time="200">WindowClose</animation>
 </control>
 
-<controlgroup>
+<control type="group">
 
 <visible>Player.HasAudio</visible>
 <visible>!Skin.HasSetting(music-info)</visible>
@@ -2446,7 +2470,7 @@
 <animation effect="slide" end="0,89" delay="5000" time="300" condition="Player.HasAudio">Conditional</animation>
 <animation effect="slide" end="0,-89" time="300">Windowclose</animation>
 
-</controlgroup>
+</control>
 
 
 </controls>

@@ -208,9 +208,9 @@
 <width>370</width>
 <posx>120</posx>
 <posy>15</posy>
-<info>VideoPlayer.tvshowtitle</info>
+<info>VideoPlayer.TVShowTitle</info>
 <align>left</align>
-<font>Heading-M</font>
+<font>fontKB</font>
 </control>
 
 <control type="label">
@@ -328,9 +328,9 @@
 
 
 
-<controlgroup>
+<control type="group">
 
-	<posy>10</posy>
+	<posy>8</posy>
     <posx>60</posx>
 	
 	<control>
@@ -592,7 +592,7 @@
 		<aspectratio>Keep</aspectratio>
 	</control>
 
-	</controlgroup>
+	</control>
 
 </controls>
 </window>

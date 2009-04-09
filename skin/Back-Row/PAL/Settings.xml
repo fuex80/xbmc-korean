@@ -113,7 +113,7 @@
 	</control>
 	
 
-<controlgroup>
+<control type="group">
 
 <animation effect="fade" time="10">Windowclose</animation>
 
@@ -369,7 +369,7 @@
 
 </control>
 
-</controlgroup>
+</control>
 
 
 <include>Music-Info</include>
