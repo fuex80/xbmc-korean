@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Update messages -->
+    <string id="30000">이 항목을 설치 하시겠습니까?</string>
+    <string id="30001"></string>
+    <string id="30002">파일 리스트 읽는중...</string>
+    <string id="30003">기다려 주세요...</string>
+    <string id="30004"></string>
+    <string id="30005">읽는중:</string>
+    <string id="30006">디렉토리:</string>
+    <string id="30007">파일:</string>
+    <string id="30008">새로운 항목이 여기에 설치되었습니다:</string>
+    <string id="30009">설치된 애드온을 찾는중 ...</string>
+    <string id="30010">SVN 확인중...</string>
+    <string id="30011">확인</string>
+    <string id="30012">SVN에 없음</string>
+    <string id="30013">알려지지 않은 버전</string>
+    <string id="30014">새로운</string>
+
+    <string id="30020">그만두기</string>
+    <string id="30021">설치</string>
+
+    <!-- settings -->
+    <string id="30500">업데이트 확인</string>
+	<string id="30510">업데이트: SVN에 없는 애드온을 보겠습니까?</string>
+	<string id="30520">업데이트: 버전이 없는 애드온을 보겠습니까?</string>
+
+    <!-- Update error messages -->
+    <string id="30030">해당 항목 설치중 에러가 있었음!</string>
+</strings>
