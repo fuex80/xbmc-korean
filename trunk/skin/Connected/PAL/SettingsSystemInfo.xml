@@ -98,7 +98,7 @@
 			<control type="label">
 				<description>2</description>
 				<posy>55</posy>
-				<label>$INFO[System.CpuUsage]</label>
+				<label>$LOCALIZE[13271] $INFO[System.CpuUsage]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -109,7 +109,7 @@
 			<control type="label">
 				<description>3</description>
 				<posy>90</posy>
-				<label>$LOCALIZE[139] $INFO[System.CpuTemperature]  -  $INFO[System.GpuTemperature]</label>
+				<label>$LOCALIZE[139] $LOCALIZE[22011] $INFO[System.CpuTemperature]  -  $LOCALIZE[22010] $INFO[System.GpuTemperature]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -120,7 +120,7 @@
 			<control type="label">
 				<description>4</description>
 				<posy>125</posy>
-				<label>$INFO[System.FanSpeed]</label>
+				<label>$LOCALIZE[13300]: $INFO[System.FanSpeed]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -142,7 +142,7 @@
 			<control type="label">
 				<description>6</description>
 				<posy>195</posy>
-				<label>$INFO[Network.IPAddress]</label>
+				<label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -153,7 +153,7 @@
 			<control type="label">
 				<description>7</description>
 				<posy>230</posy>
-				<label>$INFO[System.ScreenResolution]</label>
+				<label>$LOCALIZE[13287] $INFO[System.ScreenResolution]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -164,7 +164,7 @@
 			<control type="label">
 				<description>8</description>
 				<posy>265</posy>
-				<label>$INFO[System.KernelVersion]</label>
+				<label>$LOCALIZE[13283] $INFO[System.KernelVersion]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -175,7 +175,7 @@
 			<control type="label">
 				<description>9</description>
 				<posy>300</posy>
-				<label>$INFO[System.UpTime]</label>
+				<label>$LOCALIZE[12390]: $INFO[System.UpTime]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -186,7 +186,7 @@
 			<control type="label">
 				<description>10</description>
 				<posy>335</posy>
-				<label>$INFO[System.TotalUptime]</label>
+				<label>$LOCALIZE[12394]: $INFO[System.TotalUptime]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -312,7 +312,7 @@
 			<control type="label">
 				<description>10</description>
 				<posy>335</posy>
-				<label>$INFO[System.FreeSpace]  -  $INFO[System.TotalSpace]</label>
+				<label>$LOCALIZE[20161]: $INFO[System.FreeSpace]  -  $LOCALIZE[20161]: $INFO[System.TotalSpace]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -506,7 +506,7 @@
 			<control type="label">
 				<description>4</description>
 				<posy>125</posy>
-				<label>$INFO[Network.MacAddress]</label>
+				<label>$LOCALIZE[149]: $INFO[Network.MacAddress]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -517,7 +517,7 @@
 			<control type="label">
 				<description>5</description>
 				<posy>160</posy>
-				<label>$INFO[Network.IPAddress]</label>
+				<label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -528,7 +528,7 @@
 			<control type="label">
 				<description>6</description>
 				<posy>195</posy>
-				<label>$INFO[Network.SubnetAddress]</label>
+				<label>$LOCALIZE[13159]: $INFO[Network.SubnetAddress]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -539,7 +539,7 @@
 			<control type="label">
 				<description>7</description>
 				<posy>230</posy>
-				<label>$INFO[Network.GatewayAddress]</label>
+				<label>$LOCALIZE[13160]: $INFO[Network.GatewayAddress]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -550,7 +550,7 @@
 			<control type="label">
 				<description>8</description>
 				<posy>265</posy>
-				<label>$INFO[Network.Dns1Address]</label>
+				<label>$LOCALIZE[13161]: $INFO[Network.Dns1Address]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -561,7 +561,7 @@
 			<control type="label">
 				<description>9</description>
 				<posy>300</posy>
-				<label>$INFO[Network.Dns2Address]</label>
+				<label>$LOCALIZE[20307]: $INFO[Network.Dns2Address]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -572,7 +572,7 @@
 			<control type="label">
 				<description>10</description>
 				<posy>335</posy>
-				<label>$INFO[System.InternetState]</label>
+				<label>$LOCALIZE[13295] $INFO[System.InternetState]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -600,7 +600,7 @@
 			<control type="label">
 				<description>3</description>
 				<posy>90</posy>
-				<label>$INFO[System.ScreenResolution]</label>
+				<label>$LOCALIZE[13287] $INFO[System.ScreenResolution]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
@@ -661,7 +661,7 @@
 			<control type="label">
 				<description>4</description>
 				<posy>125</posy>
-				<label>$INFO[System.CpuFrequency]</label>
+				<label>$LOCALIZE[13284] $INFO[System.CpuFrequency]</label>
 				<font>18BdFont</font>
         <height>30</height>
         <width>510</width>
