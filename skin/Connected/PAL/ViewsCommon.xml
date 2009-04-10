@@ -246,16 +246,26 @@
 				<width>366</width>
 				<height>366</height>
 				<info>ListItem.Icon</info>
-        <aspectratio align="left" aligny="top">keep</aspectratio>
+        <aspectratio align="left" aligny="bottom">keep</aspectratio>
 				<animation effect="rotatey" center="1280" start="0" end="10" time="0" condition="true">Conditional</animation>
 			</control>
       <control type="image">
-        <posx>355</posx>
-        <posy>94</posy>
-        <width>25</width>
-        <height>25</height>
-        <info>ListItem.Overlay</info>
+        <posx>384</posx>
+        <posy>456</posy>
+        <width>366</width>
+        <height>366</height>
+        <info>ListItem.Icon</info>
         <aspectratio align="left" aligny="top">keep</aspectratio>
+        <animation effect="rotatey" center="1280" start="0" end="10" time="0" condition="true">Conditional</animation>
+        <texture flipy="true" diffuse="DiffuseMirror.png">$INFO[ListItem.Icon]</texture>
+      </control>
+      <control type="image">
+        <posx>394</posx>
+        <posy>405</posy>
+        <width>40</width>
+        <height>40</height>
+        <info>ListItem.Overlay</info>
+        <aspectratio align="left" aligny="top">bottom</aspectratio>
         <animation effect="rotatey" center="1280" start="0" end="10" time="0" condition="true">Conditional</animation>
         <visible>!Skin.HasSetting(OverlayIcons)</visible>
       </control>
