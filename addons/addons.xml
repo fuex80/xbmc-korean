@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <addon id="metadata.common.movie.daum.net" name="Daum movie common scraper functions" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension library="daum-movie.xml" point="xbmc.metadata.scraper.library" />
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <minversion>20000</minversion>
+      <summary lang="en">Daum Movie Scraper Library</summary>
+      <summary lang="kr">다음 무비 스크래퍼 라이브러리</summary>
+      <description lang="en">Download movie information from movie.daum.net</description>
+      <description lang="kr">다음에서 영화 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="metadata.movie.daum.net" name="Daum-Movie" provider-name="XBMC-Korea" version="1.0.1">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+      <import addon="metadata.common.movie.daum.net" version="1.0" />
+    </requires>
+    <extension language="ko" library="daum-movie.xml" point="xbmc.metadata.scraper.movies" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Daum Movie Scraper</summary>
+      <summary lang="kr">다음 영화 스크래퍼</summary>
+      <description lang="en">Download movie information from movie.daum.net</description>
+      <description lang="kr">movie.daum.net에서 영화 정보 다운로드</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="metadata.movie.naver.com" name="Naver Movie" provider-name="XBMC-Korea" version="1.0.2">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+      <import addon="metadata.common.movie.daum.net" version="1.0" />
+    </requires>
+    <extension language="ko" library="naver-movie.xml" point="xbmc.metadata.scraper.movies" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">NAVER Movie Scraper</summary>
+      <summary lang="kr">네이버 영화 스크래퍼</summary>
+      <description lang="en">Download movie information from movie.naver.com</description>
+      <description lang="kr">movie.naver.com 에서 영화 정보 다운로드</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="metadata.music.daum.net" name="Daum-Music" provider-name="XBMC-Korea" version="1.0.1">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension language="ko" library="daum-music.xml" point="xbmc.metadata.scraper.albums" />
+    <extension language="ko" library="daum-music.xml" point="xbmc.metadata.scraper.artists" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Daum Music Scraper</summary>
+      <summary lang="kr">다음 음악 스크래퍼</summary>
+      <description lang="en">Download music information from music.daum.net</description>
+      <description lang="kr">music.daum.net 에서 음악 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="metadata.music.naver.com" name="Naver-Music" provider-name="XBMC-Korea" version="1.0.1">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension language="ko" library="navier-music.xml" point="xbmc.metadata.scraper.albums" />
+    <extension language="ko" library="navier-music.xml" point="xbmc.metadata.scraper.artists" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">NAVER Music Scraper</summary>
+      <summary lang="kr">네이버 음악 스크래퍼</summary>
+      <description lang="en">Download music information from music.naver.com</description>
+      <description lang="kr">music.naver.com 에서 음악 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="plugin.video.daum.net" name="Daum-Video" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Daum Streaming Service</summary>
+      <description>Watch Korean movie trailer, video clip, game broadcast in tvpot.daum.net</description>
+      <platform>all</platform>
+	</extension>
+  </addon>
+  <addon id="plugin.video.gomtv.com" name="GomTV" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>GomTV Streaming Service</summary>
+      <description>Watch Korean movie trailer, video clip, game broadcast in gomtv.com</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.joonmedia.net" name="JoonMedia" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>JoonMedia Streaming Service</summary>
+      <description>Watch Korean movie/series in joonmedia.net</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="script.lyrics.xbmc-korea.com" name="Korean Lyrics" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.lyrics" />
+    <extension point="xbmc.addon.metadata">
+      <summary>Lyrics from Korean sites</summary>
+      <description>Download a Lyrics from Alsong / GomTV</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="script.subtitle.xbmc-korea.com" name="Korean Subtitle" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.subtitles" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Subtitle from Korean sites</summary>
+      <description lang="en">Download a subtitle from GomTV / TokPlayer. Subtitle button on OSD needs to be activated and path set to XBMC Subtitles under System-&gt; Skin-&gt; Addon Scripts</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
