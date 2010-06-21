@@ -76,8 +76,10 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary>Daum Streaming Service</summary>
-      <description>Watch Korean movie trailer, video clip, game broadcast in tvpot.daum.net</description>
+      <summary lang="en">Daum Streaming Service</summary>
+	  <summary lang="kr">다음 비디오 스트리밍 서비스</summary>
+      <description lang="en">Watch Korean movie trailer, video clip, game broadcast in tvpot.daum.net</description>
+	  <description lang="kr">다음 티비팟(tvpot.daum.net)에서 제공되는 한국영화 예고편, 비디오 클립, 게임 중계, 뉴스등을 볼수 있습니다</description>
       <platform>all</platform>
 	</extension>
   </addon>
@@ -89,8 +91,10 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary>GomTV Streaming Service</summary>
-      <description>Watch Korean movie trailer, video clip, game broadcast in gomtv.com</description>
+      <summary lang="en">GomTV Streaming Service</summary>
+	  <summary lang="kr">곰티비 비디오 스트리밍 서비스</summary>
+      <description lang="en">Watch Korean movie trailer, video clip, game broadcast in gomtv.com</description>
+	  <description lang="kr">곰티비(gomtv.com) 에서 제공되는 영화 예고편, 비디오, 게임중계, 뮤직비디오등을 볼수 있습니다</description>
       <platform>all</platform>
     </extension>
   </addon>
@@ -102,8 +106,10 @@
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary>JoonMedia Streaming Service</summary>
-      <description>Watch Korean movie/series in joonmedia.net</description>
+      <summary lang="en">JoonMedia Streaming Service</summary>
+	  <summary lang="kr">준미디어 비디오 스트리밍 서비스</summary>
+      <description lang="en">Watch Korean movie/series in joonmedia.net</description>
+	  <description lang="kr">준미디어(joonmedia.net)에서 제공하는 한국 영화/드라마등을 볼 수 있습니다</description>
       <platform>all</platform>
     </extension>
   </addon>
@@ -113,8 +119,10 @@
     </requires>
     <extension library="default.py" point="xbmc.python.lyrics" />
     <extension point="xbmc.addon.metadata">
-      <summary>Lyrics from Korean sites</summary>
-      <description>Download a Lyrics from Alsong / GomTV</description>
+      <summary lang="en">Lyrics from Korean sites</summary>
+	  <summary lang="kr">한국 음악 가사</summary>
+      <description lang="en">Download a Lyrics from Alsong / GomAudio</description>
+	  <description lang="kr">알송/곰오디오에서 노래 가사를 받아 음악 재생시 보여줍니다. 스킨 설정에서 가사 스크립트를 지정한후, 노래 재생시 메뉴에서 가사 표시를 선택하면 됩니다.</description>
       <platform>all</platform>
     </extension>
   </addon>
@@ -125,7 +133,9 @@
     <extension library="default.py" point="xbmc.python.subtitles" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Subtitle from Korean sites</summary>
+	  <summary lang="kr">한국어 자막</summary>
       <description lang="en">Download a subtitle from GomTV / TokPlayer. Subtitle button on OSD needs to be activated and path set to XBMC Subtitles under System-&gt; Skin-&gt; Addon Scripts</description>
+	  <description lang="kr">곰티비/톡플레이어에서 해당 영상에 맞는 자막을 다운로드해서 보여줍니다. 스킨 설정에서 자막 스크립트를 지정한후 영상 재생중 메뉴에서 자막 다운로드 메뉴를 선택하면 됩니다.</description>
       <platform>all</platform>
     </extension>
   </addon>
