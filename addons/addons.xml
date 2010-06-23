@@ -59,13 +59,25 @@
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
-    <extension language="ko" library="navier-music.xml" point="xbmc.metadata.scraper.albums" />
-    <extension language="ko" library="navier-music.xml" point="xbmc.metadata.scraper.artists" />
+    <extension language="ko" library="naver-music.xml" point="xbmc.metadata.scraper.albums" />
+    <extension language="ko" library="naver-music.xml" point="xbmc.metadata.scraper.artists" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">NAVER Music Scraper</summary>
       <summary lang="kr">네이버 음악 스크래퍼</summary>
       <description lang="en">Download music information from music.naver.com</description>
       <description lang="kr">music.naver.com 에서 음악 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="metadata.tv.daum.net" name="Daum-TV" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension language="ko" library="daum-tv.xml" point="xbmc.metadata.scraper.tvshows" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Daum TV Shows Scraper</summary>
+    <summary lang="kr">다음 티비쇼 스크래퍼</summary>
+    <description lang="en">Download TV shows information from movie.daum.net</description>
+    <description lang="kr">movie.daum.net에서 티비쇼 정보 다운로드</description>
     </extension>
   </addon>
   <addon id="plugin.video.daum.net" name="Daum-Video" provider-name="XBMC-Korea" version="0.2.2">
