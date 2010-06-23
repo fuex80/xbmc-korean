@@ -68,7 +68,7 @@
       <description lang="kr">music.naver.com 에서 음악 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="plugin.video.daum.net" name="Daum-Video" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="plugin.video.daum.net" name="Daum-Video" provider-name="XBMC-Korea" version="0.2.2">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
@@ -83,7 +83,7 @@
       <platform>all</platform>
 	</extension>
   </addon>
-  <addon id="plugin.video.gomtv.com" name="GomTV" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="plugin.video.gomtv.com" name="GomTV" provider-name="XBMC-Korea" version="0.4.6">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
@@ -98,7 +98,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="plugin.video.joonmedia.net" name="JoonMedia" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="plugin.video.joonmedia.net" name="JoonMedia" provider-name="XBMC-Korea" version="1.1.3">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
@@ -113,7 +113,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="script.lyrics.xbmc-korea.com" name="Korean Lyrics" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="script.lyrics.xbmc-korea.com" name="Korean Lyrics" provider-name="XBMC-Korea" version="1.2.2">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
@@ -126,7 +126,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="script.subtitle.xbmc-korea.com" name="Korean Subtitle" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="script.subtitle.xbmc-korea.com" name="Korean Subtitle" provider-name="XBMC-Korea" version="1.2.0">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
