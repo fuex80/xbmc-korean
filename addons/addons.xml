@@ -9,7 +9,7 @@
       <platform>all</platform>
       <minversion>20000</minversion>
       <summary lang="en">Daum Movie Scraper Library</summary>
-      <summary lang="kr">다음 무비 스크래퍼 라이브러리</summary>
+      <summary lang="kr">다음 영화 스크래퍼 라이브러리</summary>
       <description lang="en">Download movie information from movie.daum.net</description>
       <description lang="kr">다음에서 영화 정보 다운로드</description>
     </extension>
@@ -42,17 +42,28 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="metadata.music.daum.net" name="Daum-Music" provider-name="XBMC-Korea" version="1.0.1">
+  <addon id="metadata.albums.daum.net" name="Daum-Albums" provider-name="XBMC-Korea" version="1.0.0">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
-    <extension language="ko" library="daum-music.xml" point="xbmc.metadata.scraper.albums" />
-    <extension language="ko" library="daum-music.xml" point="xbmc.metadata.scraper.artists" />
+    <extension language="ko" library="daum-albums.xml" point="xbmc.metadata.scraper.albums" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">Daum Music Scraper</summary>
-      <summary lang="kr">다음 음악 스크래퍼</summary>
-      <description lang="en">Download music information from music.daum.net</description>
-      <description lang="kr">music.daum.net 에서 음악 정보 다운로드</description>
+      <summary lang="en">Daum Music Albums Scraper</summary>
+      <summary lang="kr">다음 음악 앨범 스크래퍼</summary>
+      <description lang="en">Download music albums information from music.daum.net</description>
+      <description lang="kr">music.daum.net 에서 음악 앨범 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="metadata.artists.daum.net" name="Daum-Artists" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension language="ko" library="daum-artists.xml" point="xbmc.metadata.scraper.artists" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Daum Artists Scraper</summary>
+      <summary lang="kr">다음 음악가 스크래퍼</summary>
+      <description lang="en">Download music artists information from music.daum.net</description>
+      <description lang="kr">music.daum.net 에서 음악가 정보 다운로드</description>
     </extension>
   </addon>
   <addon id="metadata.music.naver.com" name="Naver-Music" provider-name="XBMC-Korea" version="1.0.1">
