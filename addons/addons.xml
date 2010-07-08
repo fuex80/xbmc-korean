@@ -14,7 +14,7 @@
       <description lang="kr">다음에서 영화 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.movie.daum.net" name="Daum-Movie" provider-name="XBMC-Korea" version="1.0.1">
+  <addon id="metadata.movie.daum.net" name="Daum Movie" provider-name="XBMC-Korea" version="1.0.1">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
       <import addon="metadata.common.movie.daum.net" version="1.0" />
@@ -28,7 +28,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="metadata.movie.naver.com" name="Naver Movie" provider-name="XBMC-Korea" version="1.0.2">
+  <addon id="metadata.movie.naver.com" name="Naver Movie" provider-name="XBMC-Korea" version="1.0.3">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
       <import addon="metadata.common.movie.daum.net" version="1.0" />
@@ -42,7 +42,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="metadata.albums.daum.net" name="Daum-Albums" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="metadata.albums.daum.net" name="Daum Albums" provider-name="XBMC-Korea" version="1.0.0">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
@@ -54,7 +54,7 @@
       <description lang="kr">music.daum.net 에서 음악 앨범 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.artists.daum.net" name="Daum-Artists" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="metadata.artists.daum.net" name="Daum Artists" provider-name="XBMC-Korea" version="1.0.0">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
@@ -66,20 +66,31 @@
       <description lang="kr">music.daum.net 에서 음악가 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.music.naver.com" name="Naver-Music" provider-name="XBMC-Korea" version="1.0.1">
+  <addon id="metadata.albums.naver.com" name="Naver Albums" provider-name="XBMC-Korea" version="1.0.0">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
-    <extension language="ko" library="naver-music.xml" point="xbmc.metadata.scraper.albums" />
-    <extension language="ko" library="naver-music.xml" point="xbmc.metadata.scraper.artists" />
+    <extension language="ko" library="naver-albums.xml" point="xbmc.metadata.scraper.albums" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">NAVER Music Scraper</summary>
-      <summary lang="kr">네이버 음악 스크래퍼</summary>
-      <description lang="en">Download music information from music.naver.com</description>
-      <description lang="kr">music.naver.com 에서 음악 정보 다운로드</description>
+      <summary lang="en">NAVER Music Albums Scraper</summary>
+      <summary lang="ko">네이버 음악앨범 스크래퍼</summary>
+      <description lang="en">Download music album information from music.naver.com</description>
+      <description lang="ko">music.naver.com 에서 음악앨범 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.tv.daum.net" name="Daum-TV" provider-name="XBMC-Korea" version="1.0.2">
+  <addon id="metadata.artists.naver.com" name="Naver Artists" provider-name="XBMC-Korea" version="1.0.0">
+    <requires>
+      <import addon="xbmc.metadata" version="1.0" />
+    </requires>
+    <extension language="ko" library="naver-artists.xml" point="xbmc.metadata.scraper.artists" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">NAVER Music Artist Scraper</summary>
+      <summary lang="ko">네이버 음악가 스크래퍼</summary>
+      <description lang="en">Download music artist information from music.naver.com</description>
+      <description lang="ko">music.naver.com 에서 음악가 정보 다운로드</description>
+    </extension>
+  </addon>
+  <addon id="metadata.tv.daum.net" name="Daum TV" provider-name="XBMC-Korea" version="1.0.2">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
