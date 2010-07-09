@@ -90,7 +90,7 @@
       <description lang="ko">music.naver.com 에서 음악가 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.tv.daum.net" name="Daum TV" provider-name="XBMC-Korea" version="1.0.2">
+  <addon id="metadata.tv.daum.net" name="Daum TV" provider-name="XBMC-Korea" version="1.0.3">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
@@ -162,7 +162,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="script.lyrics.xbmc-korea.com" name="Korean Lyrics" provider-name="XBMC-Korea" version="1.2.3">
+  <addon id="script.xbmc-korea.lyrics" name="Korean Lyrics" provider-name="XBMC-Korea" version="1.2.3">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
@@ -175,7 +175,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="script.subtitle.xbmc-korea.com" name="Korean Subtitle" provider-name="XBMC-Korea" version="1.2.1">
+  <addon id="script.xbmc-korea.subtitles" name="Korean Subtitles" provider-name="XBMC-Korea" version="1.2.1">
     <requires>
       <import addon="xbmc.python" version="1.0" />
     </requires>
