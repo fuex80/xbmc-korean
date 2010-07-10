@@ -54,7 +54,7 @@
       <description lang="ko">music.daum.net 에서 음악 앨범 정보 다운로드</description>
     </extension>
   </addon>
-  <addon id="metadata.artists.daum.net" name="Daum Artists" provider-name="XBMC-Korea" version="1.0.0">
+  <addon id="metadata.artists.daum.net" name="Daum Artists" provider-name="XBMC-Korea" version="1.0.1">
     <requires>
       <import addon="xbmc.metadata" version="1.0" />
     </requires>
