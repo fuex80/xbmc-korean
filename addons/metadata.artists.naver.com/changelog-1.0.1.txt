@@ -1,0 +1,9 @@
+1.0.1
+
+Changes
+- Follow up two page structure changes
+
+1.0.0
+
+Changes
+- Initial addon version
